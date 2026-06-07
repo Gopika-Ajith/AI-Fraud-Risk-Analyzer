@@ -1,14 +1,3 @@
-ewww
-
-😂 Yep. That's ugly.
-
-The problem isn't the content. It's that GitHub is treating your markdown as plain text because the formatting got messed up when you pasted it.
-
-For now, don't use that giant README.
-
-Use something cleaner and more modern.
-
-AI Fraud Risk Analyzer
 # 🛡️ AI Fraud Risk Analyzer
 
 ### Smart Transaction Risk Detection using Machine Learning
@@ -86,14 +75,7 @@ Language	Python
 
 ✅ Risk Scoring
 
-📂 Project Structure
-AI-Fraud-Risk-Analyzer
-│
-├── app/
-├── models/
-├── notebooks/
-├── requirements.txt
-└── README.md
+
 🎯 Project Goal
 
 This project was built to demonstrate an end-to-end machine learning workflow by combining:
