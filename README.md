@@ -1,195 +1,113 @@
+ewww
+
+😂 Yep. That's ugly.
+
+The problem isn't the content. It's that GitHub is treating your markdown as plain text because the formatting got messed up when you pasted it.
+
+For now, don't use that giant README.
+
+Use something cleaner and more modern.
+
+AI Fraud Risk Analyzer
 # 🛡️ AI Fraud Risk Analyzer
 
 ### Smart Transaction Risk Detection using Machine Learning
 
-An end-to-end AI-powered financial risk assessment system that analyzes transaction details and predicts the likelihood of fraudulent activity in real time.
-
-Unlike traditional rule-based systems, this application uses a trained XGBoost machine learning model to evaluate transaction behavior and generate intelligent risk predictions.
+An AI-powered fraud detection application that analyzes transaction details and predicts fraud risk using a trained XGBoost model.
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Highlights
 
-Financial fraud continues to be one of the largest challenges in digital banking and online transactions.
-
-This project simulates a real-world fraud analysis environment where users can:
-
-- Create an account
-- Simulate financial transactions
-- Analyze transaction risk instantly
-- View fraud probability scores
-- Track transaction history
-- Investigate historical transactions
-
-The goal is not simply to classify fraud, but to demonstrate how machine learning can support financial risk assessment and decision-making.
+- 🤖 XGBoost Machine Learning Model
+- 💳 Real-Time Transaction Analysis
+- 📈 Probability-Based Risk Scoring
+- 🕒 Historical Transaction Investigation
+- 📝 Transaction History Dashboard
+- 🌙 Midnight Anomaly Detection
+- 🎨 Interactive Streamlit Interface
 
 ---
 
-## ✨ Key Features
-
-### 🔐 Account Simulation
-Users create a virtual account with a custom balance before performing transactions.
-
-### 💳 Intelligent Transaction Analysis
-Supports:
-
-- Send Money
-- Make Payment
-- Withdraw Money
-
-with real-time fraud evaluation.
-
-### ⏰ Real-Time & Historical Analysis
-
-Analyze:
-
-- Current transactions
-- Past transactions using custom date and time selection
-
-This reflects real-world fraud investigation workflows.
-
-### 🤖 AI-Powered Prediction Engine
-
-Powered by:
-
-- XGBoost Classifier
-- Probability-Based Risk Scoring
-
-Instead of hardcoded fraud rules.
-
-### 📊 Risk Assessment
-
-Generates:
-
-- Fraud Prediction
-- Risk Score
-- Transaction Insights
-
-### 📝 Transaction History
-
-Stores and displays previous transaction analyses in an interactive dashboard.
-
-### 🌙 Midnight Activity Detection
-
-Additional warning mechanism for transactions occurring during high-risk hours.
-
----
-
-## 🏗️ System Architecture
-
+## 📊 Project Workflow
 
 User Input
-     ↓
+↓
 Feature Engineering
-     ↓
+↓
 Validation Layer
-     ↓
-XGBoost Model
-     ↓
-Risk Prediction
-     ↓
+↓
+XGBoost Prediction
+↓
 Risk Assessment
-     ↓
+↓
 Transaction History
-🧠 Machine Learning Model
-Algorithm
 
-XGBoost Classifier
+---
 
-Dataset
+## 🧠 Machine Learning
 
-PaySim Fraud Detection Dataset
+**Algorithm:** XGBoost Classifier
 
-Features Used
-[
-'step',
-'amount',
-'oldbalanceOrg',
-'newbalanceOrig',
-'oldbalanceDest',
-'newbalanceDest',
-'type_CASH_OUT',
-'type_DEBIT',
-'type_PAYMENT',
-'type_TRANSFER'
-]
-Prediction Outputs
-Legitimate Transaction
-Fraudulent Transaction
-Risk Score
+**Dataset:** PaySim Fraud Detection Dataset
 
-Calculated using:
+**Prediction Method:**
 
+
+model.predict()
 model.predict_proba()
 
-to provide probability-based risk analysis.
+Provides both:
 
-🛠️ Technology Stack
-Frontend
-Streamlit
-Machine Learning
-XGBoost
-Scikit-Learn
-Data Processing
-Pandas
-NumPy
-Model Serialization
-Joblib
-Development
-Python
+Fraud Prediction
+Risk Probability Score
+🛠️ Tech Stack
+Category	Technology
+Frontend	Streamlit
+ML Model	XGBoost
+Data Processing	Pandas, NumPy
+Model Storage	Joblib
+Language	Python
+✨ Features
+
+✅ Account Setup
+
+✅ Fraud Risk Detection
+
+✅ Real-Time Analysis
+
+✅ Historical Analysis
+
+✅ Dynamic Greetings
+
+✅ Balance Validation
+
+✅ Transaction History Tracking
+
+✅ Risk Scoring
+
 📂 Project Structure
 AI-Fraud-Risk-Analyzer
 │
 ├── app/
-│   └── app.py
-│
 ├── models/
-│   └── fraud_model.pkl
-│
 ├── notebooks/
-│   └── 01_data_inspection.ipynb
-│
 ├── requirements.txt
-│
 └── README.md
-🎯 Why This Project Matters
+🎯 Project Goal
 
-Most beginner fraud detection projects stop at model training.
-
-This project extends beyond model development by integrating:
+This project was built to demonstrate an end-to-end machine learning workflow by combining:
 
 Machine Learning
-Risk Analytics
-Interactive Dashboard Development
+Financial Risk Analytics
+Data Processing
+Streamlit Development
 User Experience Design
-Real-Time Prediction
-Financial Decision Support
 
-making it a complete end-to-end AI application.
+into a single deployable application.
 
-🔮 Future Enhancements
-Explainable AI using SHAP
-Advanced Fraud Investigation Dashboard
-Model Performance Analytics
-Cloud Deployment
-Multi-user Authentication
-Fraud Trend Visualization
 👩‍💻 Author
 
 Gopika Ajith
-
 B.Tech Artificial Intelligence & Data Science
-
-Aspiring Data Scientist | Machine Learning Enthusiast | AI Developer
-
-LinkedIn: (Add your LinkedIn URL)
-
-GitHub: (Add your GitHub URL)
-
-⭐ Project Status
-
-Current Version: v1.0
-
-Core Machine Learning System Completed ✅
-
-Actively Improving User Experience, Explainability, and Deployment Features.
+Aspiring Data Scientist
